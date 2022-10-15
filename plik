@@ -14,6 +14,6 @@ int main() {
         return 0;
  if else // i tutaj był error który nie wiedziałem jak naprawić
         P = bok_a * bok_b;
-    cout<<"Pole ynosi:" <<P <<endl;
+    cout<<"Pole wynosi:" <<P <<endl;
     return 0;
 }
