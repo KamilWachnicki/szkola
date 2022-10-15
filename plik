@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int bok_a, bok_b;
+    float P;
+    cout<< "Podaj liczbe a:";
+    cin>> bok_a;
+    cout<<"Podaj liczbe b:";
+    cin>> bok_b;
+        if (bok_b ^ bok_a < 0)
+            std::cout << "Liczba jest nieprawidlowa\n";
+        return 0;
+ if else // i tutaj był error który nie wiedziałem jak naprawić
+        P = bok_a * bok_b;
+    cout<<"Pole ynosi:" <<P <<endl;
+    return 0;
+}
